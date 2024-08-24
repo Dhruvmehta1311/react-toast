@@ -15,8 +15,8 @@ function App() {
     toast.info("This is an Info Message..");
   }
   return (
-    <div className="bg-gray-800 w-full h-screen text-white p-10 flex flex-col gap-4 ">
-      <div className="max-w-[700px] w-[90%] mx-auto flex flex-col gap-4">
+    <div className="bg-gray-800 w-full h-screen text-white p-10 flex items-center">
+      <div className="max-w-[700px] w-[90%] mx-auto flex flex-col items-center gap-4">
         <button
           className="bg-green-600 px-2 py-4 rounded w-1/2"
           onClick={successMessage}
